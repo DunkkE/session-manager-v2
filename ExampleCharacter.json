@@ -1,0 +1,121 @@
+{
+	"character": [
+		{
+			"name": "Flint",
+			"archetype": "Fixer",
+			"origin": "Crowded",
+			"career1": "Scoundrel",
+			"career2": "Military",
+
+			"mettleBonus": 1,
+			"physBonus": 2,
+			"infBonus": 0,
+			"expBonus": 1,
+			"intBonus": -1,
+
+			"advancement": "A threat is pre-emptively removed.",
+			"workspace": "Armored",
+			"workspaceDesc": "Structurally enhanced bunker constructed in the basement of the Ikeda paper mill.",
+			"desc": "John looks like he was carved out of the ugliest and most pissed chunk of granite they had left at the quarry. Frequently wears a cheap 3 piece suit that seems like it'll pop at the smallest movement.",
+
+
+			"skill": [
+				{
+					"type": "Origin",
+					"origin": "Crowded",
+					"name": "Bribe",
+					"desc": "You can use Acquisition to purchase the following:\n> Political power\n> Legal Decisions\n> Faction involvement\n> Diplomatic immunity"
+				},
+				{
+					"type": "Career",
+					"origin": "Scoundrel",
+					"name": "Criminal",
+					"desc": "Any successful (10+) Move that involves theft, smuggling, extortion, or similar crimes also leaves no evidence that could indict you."
+				},
+				{
+					"type": "Career",
+					"origin": "Military",
+					"name": "Heavy Lifting",
+					"desc": "Ignore the Clumsy trait inflicted by heavy weapons, heavy armor, encumbrance, and high gravity."
+				}
+
+			],
+			"outfit": {
+				"name": "Cheap 3-piece",
+				"attireType": "formal",
+				"desc": "A cheap, oil-black 3-piece suit that fits Flint's form about as well as a washing machine in latex. The tie is loose around the neck and poorly done, yet the knot has been tightened into a dense ball.\nThe buttons deserve a raise for their efforts."
+			},
+
+			"asset": [
+				{
+					"name": "Thermite Hammer",
+					"type": "weapon",
+					"type2": "melee",
+					"class": 2,
+					"tag": [
+						{
+							"name": "Melee",
+							"desc": "Within arms reach."
+						},
+						{
+							"name": "Heavy",
+							"desc": "Two handed. Massive, resilient. Devastating attacks, hard to block."
+						},
+						{
+							"name": "Energy",
+							"desc": "Glows with incandescent energy, melts, burns, cauterizes."
+						},
+						{
+							"name": "Impact",
+							"desc": "Heavy kinetic force that breaks bones and knocks people over."
+						}
+					],
+					"desc": "A CoFox Industrial brand heavy-demolition grade power-sledge. Aftermarket modifications remove the original radiators and vent the heat directly through the hammerhead."
+				},
+				{
+					"name": "Nashorn Armor",
+					"type": "attire",
+					"type2": "simple",
+					"class": 1,
+					"tag": [
+						{
+							"name": "Carapace (+3)",
+							"desc": "Clumsy +3 armor."
+						}
+					],
+					"desc": "An Ägide Nashorn class ordinance removal suit. Uses military grade nanoceramic armor plate inserts for additional protection, though this weighs it down considerably."
+				},
+				{
+					"name": "Moira",
+					"type": "weapon",
+					"type2": "firearm",
+					"type3": "pistol",
+					"class": 1,
+					"tag": [
+						{
+							"name": "Adjacent/Close",
+							"desc": "A few steps away/Across the street"
+						},
+						{
+							"name": "Destructive",
+							"desc": "Causes property damage, damages machinery and vehicles."
+						}
+					],
+					"desc": "A heavily modified AEI slugthrower. Increased caliber likely to damage all but the sturdiest pieces of armor.\n'My sister, Moira, had loud mouth and tend to leave things bit more... like the swiss-cheese. I name for her.'"
+				}
+
+
+
+			],
+			"color": "#EEEC13",
+			"image": "https://artbreeder.b-cdn.net/imgs/579ba0bf7f9cd11bded6.jpeg",
+			"credits": 10
+
+
+
+		}
+	
+	]
+
+
+}
