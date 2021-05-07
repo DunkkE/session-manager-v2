@@ -85,7 +85,7 @@ function rollDice(count, size)
         result.push(Math.floor(Math.random() * size) + 1);
     return result;
 }
-
+// Generate random unique ID
 function uid(length)
 {
     var resultArr = []
@@ -117,7 +117,8 @@ bot.on('message', message => {
     var author = message.author;
     var member = message.member;
     
-    if(author.id in settingUsers && messCon.charAt(0) != '!')
+    // If the user is one that is creating a quest, accept their input as the next string.
+    if(author.id in settingUsers && messCon.charAt(0) != '!' && settingUsers[author.id].position < 5)
     {
         if(messCon.toLowerCase() == 'cancel')
         {
@@ -129,7 +130,7 @@ bot.on('message', message => {
         else
         {
             var id = settingUsers[author.id]
-
+	    // Determine which position they're at, and keep taking input until the schedule's complete, then have them confirm.
             id[id.position] = messCon;
             id.position++
             id.toDelete.delete().catch(console.error)
